@@ -1,0 +1,24 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+:root {
+  --primary: #0f172a;
+  --secondary: rgb(14, 4, 4);
+  --third: grey;
+}
+body {
+  background-color: var(--third);
+}
+input {
+  width: 40rem;
+  height: 5rem;
+}
+.header {
+  background-color: var(--primary);
+  padding: 1rem 0rem;
+  font-size: 3rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: var(--third);
+  text-align: center;
+}
